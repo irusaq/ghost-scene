@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+  <meta name="author" content="Indira Ruslanova and Sophie Thorpe">
+  <title>CS 307 Graphics Project: Spooky Scene</title>
+  <style>
+
+    html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #0c0f1a;
+    color: #dddddd;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    background-image: linear-gradient(to bottom, #0c0f1a 0%, #111622 100%);
+    }
+
+    h1, h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #c2d3ff;
+    text-shadow: 0 0 5px rgba(194, 211, 255, 0.3);
+    }
+
+    main {
+    padding: 3em 5vw;
+    min-height: 100vh;
+    background-color: rgba(20, 24, 38, 0.95);
+    box-sizing: border-box;
+    }
+
+    a {
+      color: #88ddee;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    figure {
+      margin: 2em 0;
+      text-align: center;
+    }
+
+    img {
+      max-width: 100%;
+      border: 2px solid #333;
+      border-radius: 8px;
+      box-shadow: 0 0 12px rgba(136, 221, 238, 0.15);
+    }
+
+    figcaption {
+      font-size: 0.9em;
+      color: #aaa;
+      margin-top: 0.4em;
+    }
+
+    ul, ol {
+      padding-left: 1.3em;
+    }
+
+    code {
+      background-color: #1e2536;
+      padding: 0.2em 0.4em;
+      border-radius: 4px;
+      color: #c2e2ff;
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+
+<main>
+  <h1>CS 307 Computer Graphics Project by Indira Ruslanova and Sophie Thorpe</h1>
+
+  <h2>Spooky Ghost and Graveyard Scene</h2>
+
+  <p>We created a spooky ghost and graveyard scene because we wanted to experiment with transparent materials, lighting, and spooky animations.</p>
+
+  <p>Here's a picture of something we were inspired by:</p>
+
+  <figure>
+    <img src="ghostinspo1.jpg" alt="Ghost Scene Inspiration">
+    <figcaption>A moody ghost image that inspired our haunted graveyard vibe.</figcaption>
+  </figure>
+
+  <h2>Our Project</h2>
+  <p>Key features of our scene include:</p>
+  <ul>
+    <li>Two animated flying ghosts that glide around the graveyard in circular patterns, rising and falling rhythmically</li>
+    <li>Keyboard interactivity:
+      <ul>
+        <li><strong>Press 0</strong> to toggle the ghost animation on and off</li>
+        <li><strong>Press 1</strong> to toggle the first row of graves</li>
+        <li><strong>Press 2</strong> to toggle the second row of graves</li>
+        <li><strong>Press 3</strong> to toggle the third row of graves</li>
+        <li><strong>Press 4</strong> to toggle the fourth row of graves</li>
+        <li><strong>Press S</strong> to play a spooky sound effect</li>
+      </ul>
+    </li>
+    <li>Glowing candles with orange flames and point lights that cast shadows</li>
+    <li>Fences constructed from repeated pickets and a top rail enclosing the graveyard</li>
+    <li>Textured gravestones with curved tops to resemble real headstones</li>
+    <li>Fog and directional lighting to add depth, mood, and shadow effects</li>
+  </ul>
+
+  <figure>
+    <img src="screenshot1.png" alt="Screenshot of ghost in the graveyard">
+    <figcaption>Our ghosts mid-animation floating above candle-lit gravestones.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="screenshot2.png" alt="Screenshot of graves in the graveyard">
+    <figcaption>The graves with R.I.P texture mapped onto them</figcaption>
+  </figure>
+  <h2>The Running Project</h2>
+  <p>Here is a <a href="main.html">link to the project itself</a>.</p>
+</main>
+
+<!-- JavaScript at the bottom -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cs.wellesley.edu/~anderson/js/bounds/bounds-plugin.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Spooky Scene</title>
+    <style>
+      canvas {
+          display: block;
+          width: 100%;
+          height: 100%;
+      }
+    </style>
+</head>
+
+<body>
+  <h1>Welcome to our Final Project!</h1>
+  <p>We have created a spooky graveyard scene complete with 
+    ghosts, candles, graves, a fence, and fog. To operate:
+    Press 0 to toggle the ghost animation on and off
+    Press 1 to toggle the first row of graves
+    Press 2 to toggle the second row of graves
+    Press 3 to toggle the third row of graves
+    Press 4 to toggle the fourth row of graves
+    Press S to play a spooky sound effect
+  </p>
+<script type="importmap">
+            {
+              "imports": {
+                  "three": "https://cdn.jsdelivr.net/npm/three@0.172.0/build/three.module.js",
+                  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.172.0/examples/jsm/",
+                  "tw": "https://cs.wellesley.edu/~cs307/threejs/libs/tw-sp25.js"
+              }
+            }
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.js" integrity="sha512-Mcz+Mt8k23j06ycA5EJGfyXbtzB6xqEoJxjGftQQoed/zQzem9Lt21LRymjlcm+NUsbF0LOHgfdN8LO8GtKDOw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="module" src="main.js"></script>
+</body>
+</html>
